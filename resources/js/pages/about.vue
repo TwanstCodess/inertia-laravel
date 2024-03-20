@@ -1,6 +1,4 @@
-<script setup>
-import layout from "@/layouts/layout.vue";
-</script>
+
 <template>
 
         <div>
@@ -8,8 +6,3 @@ import layout from "@/layouts/layout.vue";
         </div>
    
 </template>
-<script>
-export default {
-    layout: layout,
-};
-</script>
