@@ -1,10 +1,10 @@
 <script setup>
-import { Link } from "@inertiajs/vue3";
+import layout from "@/layouts/layout.vue";
 </script>
 <template>
-    <div>
-        <Link href="/contact">Contact</Link>
-        <Link href="/about">About</Link>
-        <h1>This is Page Home</h1>
-    </div>
+    <layout>
+       <div>
+        <h1>This is Home Page</h1>
+       </div>
+    </layout>
 </template>
