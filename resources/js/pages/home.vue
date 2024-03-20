@@ -2,9 +2,12 @@
 import layout from "@/layouts/layout.vue";
 </script>
 <template>
-    <layout>
-       <div>
+    <div>
         <h1>This is Home Page</h1>
-       </div>
-    </layout>
+    </div>
 </template>
+<script>
+export default {
+    layout: layout,
+};
+</script>
